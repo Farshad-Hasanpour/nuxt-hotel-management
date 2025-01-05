@@ -1,5 +1,5 @@
 <template>
-	<div>reservations</div>
+	<div>rooms</div>
 </template>
 
 <script setup lang="ts">
