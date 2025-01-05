@@ -26,31 +26,36 @@ export default defineNuxtPlugin((app) => {
 			VIconBtn: VBtn,
 		},
 		defaults: {
-			VTextField: {
-				variant: 'outlined',
-				density: 'comfortable',
-				color: 'secondary',
-				bgColor: 'surface-light',
-				class: 'tw-w-full'
-			},
 			VBtn: {
-				class: 'overflow-hidden tw-shrink-0',
+				class: 'tw-overflow-hidden tw-shrink-0',
 			},
 			VPrimaryBtn: {
 				variant: 'flat',
 				rounded: 'pill',
 				color: 'primary',
-				class: 'overflow-hidden tw-shrink-0 tw-h-[48px]',
+				class: 'tw-overflow-hidden tw-shrink-0',
 			},
 			VSecondaryBtn: {
 				variant: 'outlined',
 				rounded: 'pill',
 				color: 'white',
-				class: 'overflow-hidden font-weight-bold tw-border-2 tw-shrink-0 tw-h-[48px]',
+				class: 'tw-overflow-hidden tw-font-bold tw-border-2 tw-shrink-0',
 			},
 			VIconBtn: {
 				variant: 'text',
 				rounded: 'full',
+			},
+			VTextField: {
+				variant: 'outlined',
+				density: 'comfortable',
+				color: 'secondary',
+				bgColor: 'surface-light',
+			},
+			VAutocomplete: {
+				variant: 'outlined',
+				density: 'comfortable',
+				color: 'secondary',
+				bgColor: 'surface-light',
 			},
 			VCard: {
 				flat: true,
