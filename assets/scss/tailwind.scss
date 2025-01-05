@@ -1,0 +1,20 @@
+@tailwind base;
+//@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: Shabnam;
+		src: url('../fonts/shabnam/Shabnam.eot');
+		src: url('../fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/shabnam/Shabnam.woff') format('woff'),
+		url('../fonts/shabnam/Shabnam.ttf') format('truetype');
+		font-weight: normal;
+	}
+
+	html{
+		scroll-behavior: smooth;
+		overflow-y: auto;
+		@apply tw-font-shabnam !important;
+	}
+}

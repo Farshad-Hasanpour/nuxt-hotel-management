@@ -1,0 +1,33 @@
+@use './variables/vuetify-settings';
+@use 'vuetify';
+@use './tailwind';
+
+.v-input__details {
+	padding-left: 0.25rem !important;
+	padding-right: 0.25rem !important;
+	padding-top: 0.25rem !important;
+	padding-bottom: 0.625rem !important;
+	height: auto !important;
+	min-height: unset !important;
+}
+
+.v-skeleton-loader__bone{
+	margin: 0 !important;
+}
+
+.v-skeleton-loader__button{
+	max-width: unset !important;
+}
+
+.v-skeleton-loader__avatar{
+	min-width: unset !important;
+	max-width: unset !important;
+	min-height: unset !important;
+	max-height: unset !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.v-skeleton-loader__paragraph .v-skeleton-loader__text{
+	margin-bottom: .5rem !important;
+}

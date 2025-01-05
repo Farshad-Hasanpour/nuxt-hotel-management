@@ -1,0 +1,7 @@
+@use 'vuetify/settings' with (
+	$utilities: (
+		"float": false,
+	),
+);
+
+// DO NOT WRITE ANY CSS CLASS HERE
